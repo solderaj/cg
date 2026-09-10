@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Pong</title>
+
+    <style>
+        body {
+            margin: 0;
+            background: #111;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        canvas {
+            display: block;
+            margin: 20px auto 10px auto;
+            border: 2px solid white;
+        }
+
+        #placar {
+            font-size: 32px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        #instrucoes {
+            color: #aaa;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="placar">0 × 0</div>
+
+    <canvas id="canvas" width="600" height="600"></canvas>
+
+    <div id="instrucoes">
+        Esquerda: W / S &nbsp;&nbsp; | &nbsp;&nbsp;
+        Direita: ↑ / ↓ &nbsp;&nbsp; | &nbsp;&nbsp;
+        Espaço: Pausar &nbsp;&nbsp; | &nbsp;&nbsp;
+        R: Reiniciar
+    </div>
+
+    <script src="m3.js"></script>
+    <script src="main.js"></script>
+
+</body>
+</html>
